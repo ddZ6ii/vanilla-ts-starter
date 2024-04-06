@@ -1,0 +1,7 @@
+node_modules
+public
+dist/**/*
+!dist/index.html
+!dist/style.css
+.vercel
+.vscode

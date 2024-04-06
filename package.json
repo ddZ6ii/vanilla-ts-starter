@@ -7,5 +7,8 @@
   "author": "Denis Dezest <denis.dezest@gmail.com>",
   "repository": "git@github.com:ddZ6ii/vanilla-ts-starter.git",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
 }
