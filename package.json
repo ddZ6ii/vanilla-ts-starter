@@ -8,6 +8,14 @@
   "repository": "git@github.com:ddZ6ii/vanilla-ts-starter.git",
   "license": "MIT",
   "type": "module",
+  "scripts": {
+    "dev": "tsc --watch",
+    "format": "prettier . --write",
+    "lint": "eslint ./src/**/*.ts",
+    "format:lint": "yarn run format && yarn run lint",
+    "build": "yarn run lint && tsc",
+    "build:preview": "yarn run build && node ./dist/index.js"
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.5.0",
     "@typescript-eslint/parser": "^7.5.0",
