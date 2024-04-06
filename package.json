@@ -1,0 +1,11 @@
+{
+  "name": "vanilla-ts-starter",
+  "private": true,
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "starter for html | css | typescript project",
+  "author": "Denis Dezest <denis.dezest@gmail.com>",
+  "repository": "git@github.com:ddZ6ii/vanilla-ts-starter.git",
+  "license": "MIT",
+  "type": "module"
+}
